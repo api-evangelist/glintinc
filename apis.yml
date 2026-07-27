@@ -1,8 +1,25 @@
 aid: glintinc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glintinc.png
 name: Glintinc
-description: 'Glintinc is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Glint (Glint Inc), founded in 2013 and headquartered in Redwood City, California, built a
+  people-success and employee-engagement platform centered on frequent pulse surveys, engagement analytics,
+  and manager action-planning to help organizations measure and improve employee experience. LinkedIn
+  acquired Glint in November 2018, and the product was subsequently folded into Microsoft Viva as Viva
+  Glint. There is no standalone Glint developer portal or public API: the former glintinc.com domain now
+  302-redirects to Microsoft''s Viva Glint community, and the offering is delivered and documented through
+  Microsoft Viva. This profile is retained for network lineage as a Norwest Venture Partners portfolio
+  company that was acquired rather than an independently operating API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/glintinc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+x-status: acquired
+x-acquired-by: microsoft
+x-successor-product: Microsoft Viva Glint
 tags:
 - Company
-- Unknown
+- Employee Engagement
+- People Analytics
+- HR Tech
+- Surveys
+- Employee Experience
+- Microsoft Viva
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/glintinc-domain-security.yml
 - type: Website
   url: https://glintinc.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
