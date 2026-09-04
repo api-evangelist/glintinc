@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://glintinc.com', status: 302, note: 'declared website redirects to https://techcommunity.microsoft.com/blog/viva_glint_blog/an-update-on-copilot-in-viva-glint/4400167 — a different registrable domain (glintinc.com -> microsoft.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glintinc.png
 name: Glintinc
 description: 'Glint (Glint Inc), founded in 2013 and headquartered in Redwood City, California, built a
